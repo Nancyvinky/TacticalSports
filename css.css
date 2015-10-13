@@ -1,0 +1,59 @@
+/* Type Selectors ---------------------*/
+body{
+  color: rgb(0,0,0);
+  margin: 10
+  font-size: 1em;/* 16px*/
+  font-family:"Noticia Text, Arial, sans-serif;"
+  line-height: 1.5;
+}
+
+header{
+  padding-top: 120px;
+  padding-bottom: 90px;
+  margin-bottom: 50px
+}
+
+header span{
+  color: rgb(o, o, o);
+  border-bottom: 2px solid;
+  font-size: 26 px solid;
+  letter-spacing: 1.3px;
+  line-height: 2;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+h1{
+  font-sizeL 5.625rem; /*90px/16px */
+  color: rgb(0,0,0);
+  font-weight: normal;
+}
+
+h2{
+  font-size: 2em; /32px */
+  color: rgb(0,0,);
+  font-weight: normal;
+}
+
+h3{
+  font-size: 2em; /32px */
+  color: rgb(0,0,);
+  font-weight: normal;
+}
+
+h4{
+  font-size: 2em; /32px */
+  color: rgb(0,0,);
+  font-weight: normal;
+}
+
+h5{
+  font-size: 2em; /32px */
+  color: rgb(0,0,);
+  font-weight: normal;
+}
+p{
+  color:inital;
+  line-height:1.6;
+  padding:0.24%;
+  }
