@@ -24,47 +24,26 @@ header span{
   font-weight: normal;
 }
 
+ul {
+  color: blue;
+}
 h1{
-  font-size: 5.625rem; /*90px/16px */
+    font-size: 3em; /*48px */
   font-family:"Noticia Text, Arial, sans-serif;"
   color: rgb(0,0,0);
   font-weight: normal;
 }
 
 h2{
-  font-size: 2em; /32px */
+  font-size: 1.5em; /24px */
   font-family:"Noticia Text, Arial, sans-serif;"
   color: rgb(0,0,0);
   font-weight: normal;
 }
 
-h3{
-  font-size: 2em; /32px */
-  font-family:"Noticia Text, Arial, sans-serif;"
-  color: rgb(0,0,0);
-  font-weight: normal;
-}
 
-h4{
-  font-size: 2em; /32px */
-  font-family:"Noticia Text, Arial, sans-serif;"
-  color: rgb(0,0,0);
-  font-weight: normal;
-}
-
-h5{
-  font-size: 2em; /32px */
-  font-family:"Noticia Text, Arial, sans-serif;"
-  color: rgb(0,0,0);
-  font-weight: normal;
-}
-h6{
-  font-size: 2em; /32px */
-  font-family:"Noticia Text, Arial, sans-serif;"
-  color: rgb(0,0,0);
-  font-weight: normal;
-}
 p{
+  font-size: 1em: /16px */
   color:inital;
   line-height:1.6;
   padding:0.24%;
