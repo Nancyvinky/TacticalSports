@@ -37,7 +37,7 @@ HEADING
 
 header{
   float: left;
-  margin 15px 0;
+  margin 0 0 30 px 0;
   padding 5px 0 0 0;
   width: 100%
 }
@@ -55,7 +55,7 @@ header span{
 
 
 h1{
-  font-size: 2.5em; /*40px */
+  font-size: 3em; /*48px */
   font-family:"Noticia Text, Arial, sans-serif;"
   margin: 15px 0;
   color: rgb(0,0,0);
@@ -79,7 +79,7 @@ nav {
 
 nav ul {
   list-style: none;
-  margin: 10 0 px;
+  margin: 0 10 px;
   padding: 0;
 }
 
