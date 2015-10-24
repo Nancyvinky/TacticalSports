@@ -1,0 +1,97 @@
+/****************************
+GENERAL
+*****************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+p {
+    font-size: 1em: line-height: 1.6;
+    padding: 0.24%;
+}
+
+.photos img {
+    display: block;
+    width: 400px;
+    height: 250px;
+    list-style-type: none;
+}
+
+body > header {
+    background-color: black;
+}
+
+body section {
+    margin: 20px 0 0 0;
+}
+
+section article {
+    margin: 15px;
+}
+
+
+/***********************************
+HEADING
+***********************************/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Noticia Text, Arial, sans-serif;" color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-size: 2.5em;
+    /*40px */
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+
+/********************************
+NAVIGATION
+********************************/
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    color: white;
+    width: 200px;
+    padding: 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+
+/*******************************
+FOOTER
+*******************************/
+
+
+/*******************************
+PAGE PORTIFOLIO
+********************************/
