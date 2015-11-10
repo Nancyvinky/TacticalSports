@@ -3,7 +3,9 @@
 
 <head>
 
+<meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+
 </head>
 
 <body>
@@ -80,13 +82,28 @@
             <p>Condor Outdoor Products is our main supplier of Tactical Vests and pouches. I have found their products to be affordable for the beginner and I personally use their products on the field.
         </section>
         <section>
+
             <h1>Contact Info</h1>
             <div id="contact.html"></div>
-                <a href="mailto:drew@tacsports.net">drew@tacsports.net</a>
+
+            <form name="contactForm" method="post" action="mailto:drew@tacsports.net" onSubmit="return ValidateForm()">
+                <p>Enter an Email Address :
+                  <input type="text" name="txtEmail">
+                </p>
+                <p>
+                  <input type="submit" name="Submit" value="Submit">
+                </p>
+              </form>
+
+          </section>
+
+
             <footer>
                 <p>Content copyright 2009-2015. Tactical Sports. All rights reserved.</p>
 
             </footer>
+
+            <script src="js/form.js"></script>
 </body>
 
 </html>

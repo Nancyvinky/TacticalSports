@@ -32,6 +32,7 @@ p {
     display: block;
     max-width: 400px;
     height: 250px;
+    padding: .025%;
     list-style-type: none;
 
 
@@ -55,7 +56,7 @@ section article {
 h1 {
   font-family: "Arial, sans-serif";
   color: #000;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 
@@ -72,29 +73,89 @@ nav ul {
 
 nav li {
     color: white;
-    width: 250px;
-    padding: 20px;
+    width: 295px;
+    padding: 10px;
     display: inline-block;
+    font-family: "Arial, sans-serif";
     font-size: 1em;
     font-weight: bold;
     background-color: #cce5ff;
     border-radius: 15px;
-
-
 }
+
 /*******************************
 FOOTER
 *******************************/
 
  footer{
-   margin-top: 20px;
+   margin-top: 60px;
  }
+ /*******************************
+ Form
+ ********************************/
+ body { background-color:
+ white;}
+
+label {
+    clear: left;
+    color: black;
+    font-size: 1em;
+    margin: 22px 32px 6px 0;
+    text-align: right;
+    text-transform: capitalize;
+    width: 94px;
+}
+form li {
+    list-style-type: none;
+}
+form {
+
+    border-radius: 20px 20px 20px 20px;
+    list-style: none;
+    margin: 15px auto;
+    padding: 20px 30px;
+
+}
+h1 {
+    font-size: 1.3em; color: black; text-transform:capitalize;
+    text-align: left; margin: 0 0 35px 0; text-shadow: 0px 1px 0px #f2f2f2;
+}
+
+
+input {
+    background: white;
+    font-family: sans-serif;
+    font-size: 1em;
+    height: 30px;
+    margin: 4px 0 21px;
+    padding: 3px;
+    text-transform: capitalize;
+    width: 256px;
+}
+
+textarea {
+    background: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 170px;
+    margin: 0 0 21px;
+    padding: 12px 20px 0;
+    text-transform: capitalize;
+    width: 256px;
+
+  }
 
 
 
-/*******************************
-PAGE PORTIFOLIO
-********************************/
+input[type=submit] {
+    width: 185px; height: 52px; float: left; padding: 15px 15px; margin: 10px 15px;
+    border: 1px solid black;
+
+
+  }
+
+
 
 /*******************************
 Media Queries
@@ -131,7 +192,7 @@ nav a {
   float: left;
   width:57%;
   }
-
+}
 @media only screen and (min-width: 1140px) {
 
 #wrapper {
@@ -158,11 +219,3 @@ clearfix:after{
 clearfix:after {
   clear:both;
 }
-
-clearfix {
-  *zoom:1;
-}
-
-/*******************************
-PAGE PORTIFOLIO
-********************************/
